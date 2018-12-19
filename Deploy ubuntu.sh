@@ -39,9 +39,10 @@ sudo apt-get install php-cli php-mbstring php-gettext php-curl
 sudo phpenmod curl
 
 sudo a2enmod rewrite
-sudo apt install php7.0-dev
+sudo apt install php
+sudo apt install php7.2-dev
 echo "php7.0-dev Installed Successfully!"
 
-sudo apt-get install php7.0-intl
+sudo apt-get install php7.2-intl
 echo "php7.0-intl Installed Successfully!"
 sudo service apache2 restart
